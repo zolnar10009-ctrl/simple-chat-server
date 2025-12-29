@@ -1,6 +1,6 @@
 const WebSocket = require("ws");
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 const wss = new WebSocket.Server({ port: PORT });
 
 console.log("Chat server running on port", PORT);
